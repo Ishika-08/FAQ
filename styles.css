@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 15px;
+    height: 100vh;
+    font-family: 'Kumbh Sans', san-serif;
+    font-weight: 400;
+    background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    color: hsl(240, 6%, 50%);
+}
+
+h1{
+    font-weight: 700;
+    margin: 5%;
+    color: hsl(237, 12%, 33%);
+}
+
+.card{
+    margin: 100px auto;
+    padding: 3%;
+    background-color: white;
+    height: 60vh;
+    width: 60%;
+    border-radius: 5%;
+    display: flex;
+    overflow: hidden;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .card:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.answer{
+    padding: 2%;
+    display: block;
+    text-align: left;
+    margin-left: 3%;
+}
+
+  .question{
+    padding: 3%;
+  }
+
+  .each-faq{
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    margin-bottom: 3vh;
+  }
+
+  .q-box{
+    display: flex;
+    cursor: pointer;
+  }
+
+  .q-box .question{
+    float: left;
+    width: 90%;
+  }
+
+  .q-box .btn{
+    float: left;
+    width: 10%;
+    background-color: white;
+    border: none;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  .back-img{
+    height: 800px;
+    width: 1000px;
+    position: relative;
+    bottom: 200px;
+    right: 600px;
+  }
+  
+  .box-img{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    left: 140px;
+    top: 330px;
+  }
+
+  .woman-img{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    bottom: 800px;
+    right: 150px;
+  }
+
+  .clicked-question{
+    font-weight: 700;
+    color: hsl(237, 12%, 33%);
+  }
